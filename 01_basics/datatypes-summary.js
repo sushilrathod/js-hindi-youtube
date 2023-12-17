@@ -31,3 +31,26 @@ let  muObj=
 const myFunction=function(){
     console.log("Hello world");
 }
+
+
+
+//  Stack(Primitive datatype ) , Heap (Non Primitve datatype)
+
+
+let myYoutubename="sushilrathod";
+
+let anothername=myYoutubename;
+anothername="prajaktarathod";
+
+console.log(anothername);
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+console.log(userOne);
+let userTwo=userOne;
+console.log(userTwo);
+userTwo.email="sushilrathod@gmail.com";
+
+console.log(userTwo);
